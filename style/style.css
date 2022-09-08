@@ -718,22 +718,22 @@
     color: #fff;
   }
   section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-    background: url("../img/thumb-1.jpg") center center/cover;
+    background: url("../img/ims1.png") center center/cover;
   }
   section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
-    background: url("../img/thumb-2.jpg") center center/cover;
+    background: url("../img/ep2.png") center center/cover;
   }
   section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
-    background: url("../img/thumb-3.jpg") center center/cover;
+    background: url("../img/bsp.png") center center/cover;
   }
   section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
-    background: url("../img/thumb-4.jpg") center center/cover;
+    background: url("../img/Dubizzle\ logo.png") center center/cover;
   }
   section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
-    background: url("../img/thumb-5.jpg") center center/cover;
+    background: url("../img/qc.png") center center/cover;
   }
   section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
-    background: url("../img/thumb-6.jpg") center center/cover;
+    background: url("../img/olx-lebanon-logo.png") center center/cover;
   }
   section:nth-of-type(3) #gallery .mix:nth-child(7) .card {
     background: url("../img/thumb-7.jpg") center center/cover;
@@ -796,16 +796,16 @@
     width: 100%;
   }
   section:nth-of-type(4) .blog-wrap #thumb-1 {
-    background: url("../img/blog-1.jpg") center center/cover;
-  }
-  section:nth-of-type(4) .blog-wrap #thumb-2 {
     background: url("../img/blog-2.jpg") center center/cover;
   }
+  section:nth-of-type(4) .blog-wrap #thumb-2 {
+    background: url("../img/blog-1.jpg") center center/cover;
+  }
   section:nth-of-type(4) .blog-wrap #thumb-3 {
-    background: url("../img/blog-3.jpg") center center/cover;
+    background: url("../img/rtk.png") center center/cover;
   }
   section:nth-of-type(4) .blog-wrap #thumb-4 {
-    background: url("../img/blog-4.jpg") center center/cover;
+    background: url("../img/blog-4.png") center center/cover;
   }
   section:nth-of-type(4) .blog-wrap .fade-wrap {
     transition: opacity 0.3s;
