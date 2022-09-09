@@ -1310,12 +1310,13 @@
 .step:after {
   content:"";
   position: absolute;
-  left: 18px;
+  left: 17px;
   top: 41px;
   height: 0;
   width: 2px;
   background-color: #e31b6d;
 }
+
 .step .info {
   margin: 8px 0 20px;
 }
@@ -1334,6 +1335,23 @@
 .step:not(:last-child):after {
   height: 75%;
 }
+@media screen and (max-width: 600px) {
+  .step:after {
+    content:"";
+    position: absolute;
+    left: 17px;
+    top: 41px;
+    height: 0;
+    width: 2px;
+    background-color: #e31b6d;
+  } 
+  .step:not(:last-child):after {
+    height: 65%;
+  }
+}
+/* @media screen and (min-width: 00px) {
+
+} */
 .number {
   width: 32px;
   height: 32px;
