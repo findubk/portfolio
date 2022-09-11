@@ -1291,11 +1291,14 @@
   
 
 .me{
+  /* border:3px solid #e31b6d; */
+  box-shadow:0 0px 30px rgba(0, 0, 0, 0.9);
   border-radius: 50%;
+  margin-bottom: 40px !important;
 }
 
 .desigination{
-  color: #e31b6d;
+  color: rgb(227, 27, 109);
 }
 
 .steps {
