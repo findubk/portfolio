@@ -720,25 +720,37 @@
   section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
     /* background: url("../img/ims-thumb-logo.png") center center/cover; */
     background: url("../img/Easypaisa-thumb.jpg") center center/cover;
+    box-shadow:0 0px 30px rgba(0, 0, 0, 0.9);
+    
+
   }
   section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
     background: url("../img/ims-thumb-logo.png") center center/cover;
+    box-shadow:0 0px 30px rgba(0, 0, 0, 0.9);
 
   }
   section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
     background: url("../img/bsprt.jpg") center center/cover;
+    box-shadow:0 0px 30px rgba(0, 0, 0, 0.9);
+
   }
   section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
     background: url("../img/dub-auto.jpg") center center/cover;
-  }
+    box-shadow:0 0px 30px rgba(0, 0, 0, 0.9);
+
+}
   section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
     background: url("../img/qc-thumb.png") center center/cover;
+    box-shadow:0 0px 30px rgba(0, 0, 0, 0.9);
   }
   section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
     background: url("../img/olx-autos.jpg") center center/cover;
-  }
+    box-shadow:0 0px 30px rgba(0, 0, 0, 0.9);
+
+}
   section:nth-of-type(3) #gallery .mix:nth-child(7) .card {
     background: url("../img/thumb-7.jpg") center center/cover;
+  
   }
   section:nth-of-type(3) #gallery .mix:nth-child(8) .card {
     background: url("../img/thumb-8.jpg") center center/cover;
@@ -748,6 +760,7 @@
   }
   section:nth-of-type(3) #gallery .mix:nth-child(10) .card {
     background: url("../img/thumb-10.jpg") center center/cover;
+    
   }
   section:nth-of-type(3) #gallery .mix:nth-child(11) .card {
     background: url("../img/thumb-11.jpg") center center/cover;
@@ -799,15 +812,19 @@
   }
   section:nth-of-type(4) .blog-wrap #thumb-1 {
     background: url("../img/blog-2.jpg") center center/cover;
+    box-shadow:0 0px 30px rgba(0, 0, 0, 0.9);
   }
   section:nth-of-type(4) .blog-wrap #thumb-2 {
     background: url("../img/blog-1.jpg") center center/cover;
+    box-shadow:0 0px 30px rgba(0, 0, 0, 0.9);
   }
   section:nth-of-type(4) .blog-wrap #thumb-3 {
     background: url("../img/rtk.png") center center/cover;
+    box-shadow:0 0px 30px rgba(0, 0, 0, 0.9);
   }
   section:nth-of-type(4) .blog-wrap #thumb-4 {
     background: url("../img/blog-4.png") center center/cover;
+    box-shadow:0 0px 30px rgba(0, 0, 0, 0.9);
   }
   section:nth-of-type(4) .blog-wrap .fade-wrap {
     transition: opacity 0.3s;
@@ -1392,4 +1409,14 @@ align-items: flex-start;
 .stack, .proj{
   /* align-items: flex-start; */
 text-align: start;
+}
+.mix{
+  padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .mix{
+    padding: 0px;
+  }
+    
 }
