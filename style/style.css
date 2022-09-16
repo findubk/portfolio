@@ -1410,13 +1410,11 @@ align-items: flex-start;
   /* align-items: flex-start; */
 text-align: start;
 }
-.mix{
-  padding: 5px;
-}
+
 
 @media screen and (max-width: 400px) {
   .mix{
-    padding: 0px;
+    padding: 5px;
   }
     
 }
