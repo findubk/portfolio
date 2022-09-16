@@ -1411,7 +1411,6 @@ align-items: flex-start;
 text-align: start;
 }
 
-
 @media screen and (max-width: 400px) {
   .mix{
     padding: 5px;
