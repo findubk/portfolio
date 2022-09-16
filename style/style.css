@@ -1412,7 +1412,8 @@ text-align: start;
 }
 
 
-@media only screen and (min-width: 768px) {
+
+@media screen and (max-width: 400px) {
   .mix{
     padding: 5px;
   }
