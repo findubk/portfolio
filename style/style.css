@@ -719,7 +719,7 @@
   }
   section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
     /* background: url("../img/ims-thumb-logo.png") center center/cover; */
-    background: url("../img/Easypaisa-thumb.jpg") center center/cover;
+    background: url("../img/motive.jpeg") center center/cover;
     box-shadow:0 0px 30px rgba(0, 0, 0, 0.9);
     
 
@@ -730,7 +730,7 @@
 
   }
   section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
-    background: url("../img/bsprt.jpg") center center/cover;
+    background: url("../img/Easypaisa-thumb.jpg") center center/cover;
     box-shadow:0 0px 30px rgba(0, 0, 0, 0.9);
 
   }
