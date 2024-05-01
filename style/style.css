@@ -1333,7 +1333,7 @@
   content:"";
   position: absolute;
   left: 17px;
-  top: 41px;
+  top: 52px;
   height: 0;
   width: 2px;
   background-color: #e31b6d;
@@ -1341,11 +1341,26 @@
 
 .step .info {
   margin: 8px 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.company-logo{
+  margin-right: 1rem;
+}
+
+.role-description{
+  text-align: start;
 }
 .step .title {
-  font-size: 16px;
-  font-weight: 600;
-  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 800;
+  /* margin: 0 0 8px; */
   color: black;
 }
 .step .text {
@@ -1388,6 +1403,7 @@
   font-size: 15px;
   font-weight: 600;
   margin-right: 14px;
+  margin-top:12px;
 }
 .number.completed {
   background-color: #e31b6d;
